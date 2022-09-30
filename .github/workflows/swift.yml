@@ -18,5 +18,5 @@ jobs:
 #     - name: Run tests
 #       run: swift test -v
     - name: Check File & Path
-      run: ls -la && pwd
+      run: cd .build/artifacts ls -la && pwd
 
